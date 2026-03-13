@@ -1,6 +1,6 @@
 # CPU-Based ASCII 3D Rasterization Pipeline
 
-![ASCII Rotating Cube](./perfect_cube_loop.gif)
+![ASCII Rotating Cube](./assets/perfect_cube_loop.gif)
 
 ## Overview
 This project reconstructs a standard 3D graphics pipeline entirely in software, operating not on pixels but on a grid of ASCII characters. It relies on pure Python with no 3D graphics APIs, GPU acceleration, or external matrix libraries. 
