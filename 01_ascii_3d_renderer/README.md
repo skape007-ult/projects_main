@@ -15,6 +15,3 @@ The system implements the core stages of modern rendering from scratch:
 * **Perspective Projection:** Foreshortening via mathematical division by depth $(z)$.
 * **Z-Buffering:** Resolving occlusion and depth ordering natively.
 
-## The Paper
-The complete mathematical derivations, architectural decisions, and pipeline flowcharts are formally documented in the accompanying technical paper:
-📄 **[Read the Full Technical Paper](./docs/Implementation_of_a_CPU_Based_ASCII_3D_Rasterization_Pipeline.pdf)**
