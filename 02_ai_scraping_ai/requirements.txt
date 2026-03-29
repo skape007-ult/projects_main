@@ -1,0 +1,15 @@
+trafilatura
+newspaper3k
+feedparser
+requests
+google-generativeai
+aiohttp
+sentence-transformers
+chromadb
+python-dotenv
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+umap-learn
