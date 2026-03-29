@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # "AI Scraping AI" Pipeline & Knowledge Base
 
 An autonomous, end-to-end data pipeline that scrapes, scores, embeds, and synthesizes the latest artificial intelligence research and news. This project functions both as a daily briefing generator (via email) and a persistent, searchable Retrieval-Augmented Generation (RAG) knowledge base.
@@ -21,7 +24,20 @@ The pipeline is entirely modular and can be run in discrete stages:
 3.  **Embed:** Converts cleaned text into normalized vector embeddings, batched into ChromaDB.
 4.  **Synthesize:** Prompts Gemini 2.5 Flash/Pro with the day's top extracts to write a structured, citations-backed technical briefing.
 5.  **Deliver:** Compiles the briefing and pipeline telemetry statistics into an HTML email.
-6.  **RAG Interface:** A Streamlit dashboard (`app.py`) allowing semantic chat with the historical knowledge base and 2D UMAP visualizations of the vector space.
+6.  **RAG Interface:** A Streamlit dashboard (`app.py`) allowing semantic chat with the historical knowledge base and t-SNE visualizations of the vector space.
 
 [Knowledge Map]
 <img width="1431" height="799" alt="newplot" src="https://github.com/user-attachments/assets/7438d4cb-5cf8-4c0a-959a-e1c823120a45" />
+
+## Quick Start
+
+1. Clone the repo and install dependencies:
+   pip install -r requirements.txt
+
+2. Copy .env.example to .env and fill in your keys
+
+3. Run the daily pipeline:
+   python main.py
+
+4. Launch the RAG interface:
+   streamlit run app.py
