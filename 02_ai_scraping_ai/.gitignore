@@ -23,8 +23,14 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .chroma/
+
 .installed.cfg
 *.egg
+
+# OS files
+.DS_Store
+Thumbs.db
+
 MANIFEST
 
 # PyInstaller
